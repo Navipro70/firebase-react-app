@@ -1,5 +1,12 @@
 import React from "react";
+import {Form, withFormik} from "formik";
 
-export const Login = () => {
-    return <div>LOGIN</div>
-}
+const LoginForm = () => {
+    return (
+        <Form>
+            LOGIN
+        </Form>
+    )
+};
+
+export const Login = withFormik()(LoginForm);

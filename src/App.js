@@ -12,7 +12,7 @@ function App() {
     const [authenticated, setAuthenticated] = useState(false);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        auth().onAuthStateChanged((user) => {
+        auth().onAuthStateChanged(user => {
             if (user){
                 setAuthenticated(true);
                 setLoading(false)
