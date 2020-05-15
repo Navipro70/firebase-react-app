@@ -1,0 +1,21 @@
+.login__form {
+    border-radius: 10px;
+    border: 2px solid #282c34;
+    width: 52vw;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 20px 20px 40px;
+}
+
+.login__form div {
+    margin-bottom: 15px;
+}
+
+.login__form input {
+    width: 50vw;
+}
+
+.login__form a {
+    text-decoration: none;
+    color: indianred;
+}
