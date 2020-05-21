@@ -12,3 +12,13 @@
   text-decoration: none;
   color: papayawhip;
 }
+
+.App-header img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.Chat-main {
+    width: 80vw;
+    margin: 0 auto;
+}

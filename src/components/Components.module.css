@@ -1,0 +1,18 @@
+.my_message {
+    margin-left: auto;
+    width: 280px;
+    border: lightgreen 2px solid;
+    background-color: rgba(144, 238, 144, 0.3);
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.other_user_message {
+    width: 280px;
+    border: rgb(161, 21, 81) 2px solid;
+    background-color: rgba(161, 21, 81, 0.3);
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
